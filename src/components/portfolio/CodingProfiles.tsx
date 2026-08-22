@@ -29,6 +29,9 @@ export function CodingProfiles() {
               </div>
               <h3 className="mt-5 text-xl font-semibold">{p.platform}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{p.description}</p>
+              {p.stat && (
+                <p className="mt-3 text-sm font-medium text-primary">{p.stat}</p>
+              )}
 
               <a
                 href={p.url}
