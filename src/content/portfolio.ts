@@ -18,15 +18,16 @@ export const profile = {
 export const about = {
   heading: "About Me",
   paragraphs: [
-    "I am a BTech Computer Science & Engineering student building a strong foundation in programming and software engineering. My core language is Java, and I work on Data Structures & Algorithms consistently to think more clearly about problems.",
-    "Alongside DSA, I'm learning full-stack web development — HTML, CSS and JavaScript on the front end, SQL for data, and Git/GitHub for version control and collaboration.",
-    "My goal is simple: become a developer who writes clean, maintainable code and understands the systems behind it. I'm currently looking for internship opportunities where I can learn from experienced engineers.",
+    "I recently completed my first year of B.Tech in Computer Science and Engineering. I am at the beginning of my journey as a developer, and I am focused on building a strong foundation in Java, Data Structures & Algorithms, and Web Development.",
+    "So far, I have solved 50+ problems on LeetCode. I enjoy understanding the logic behind a problem, exploring different approaches, and finding an efficient solution. That process of breaking things down and making them work is what drew me to programming.",
+    "I also love building projects and turning ideas into working applications. I recently participated in CodePunk, my first hackathon. My team did not win, but the experience taught me how to collaborate, work under constraints, and build something from scratch.",
+    "I chose Computer Science because I am curious about how modern technology works behind the scenes. My goal is to keep learning, understand the systems that shape the world, and eventually build useful and efficient solutions as a Full-Stack Developer.",
   ],
   facts: [
-    { label: "Degree", value: "BTech CSE" }, // [PLACEHOLDER]
-    { label: "Year", value: "Undergraduate" }, // [PLACEHOLDER]
+    { label: "Degree", value: "B.Tech CSE" },
+    { label: "Year", value: "Completed 1st Year" },
     { label: "Focus", value: "Java • DSA • Web" },
-    { label: "Open to", value: "Internships" },
+    { label: "Goal", value: "Full-Stack Developer" },
   ],
 };
 
