@@ -46,31 +46,31 @@ export const codingProfiles = [
   {
     platform: "LeetCode",
     description: "Daily practice on DSA problems and contest questions.",
-    url: "https://leetcode.com/u/your-username", // [PLACEHOLDER]
+    url: "https://leetcode.com/u/yuvrajsinghh24",
     stats: [
-      { label: "Problems Solved", value: "—" }, // [PLACEHOLDER]
-      { label: "Contest Rating", value: "—" }, // [PLACEHOLDER]
-      { label: "Max Streak", value: "—" }, // [PLACEHOLDER]
+      { label: "Problems Solved", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Contest Rating", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Max Streak", value: "—" }, // [PLACEHOLDER] update with real number
     ],
   },
   {
     platform: "GitHub",
     description: "Projects, practice repositories and open-source exploration.",
-    url: "https://github.com/your-username", // [PLACEHOLDER]
+    url: "https://github.com/yuvrajsingh24042005-arch",
     stats: [
-      { label: "Repositories", value: "—" }, // [PLACEHOLDER]
-      { label: "Contributions", value: "—" }, // [PLACEHOLDER]
-      { label: "Followers", value: "—" }, // [PLACEHOLDER]
+      { label: "Repositories", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Contributions", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Followers", value: "—" }, // [PLACEHOLDER] update with real number
     ],
   },
   {
     platform: "CodeChef",
     description: "Competitive programming contests and long challenges.",
-    url: "https://www.codechef.com/users/your-username", // [PLACEHOLDER]
+    url: "https://www.codechef.com/users/equal_glim_45",
     stats: [
-      { label: "Rating", value: "—" }, // [PLACEHOLDER]
-      { label: "Stars", value: "—" }, // [PLACEHOLDER]
-      { label: "Contests", value: "—" }, // [PLACEHOLDER]
+      { label: "Rating", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Stars", value: "—" }, // [PLACEHOLDER] update with real number
+      { label: "Contests", value: "—" }, // [PLACEHOLDER] update with real number
     ],
   },
 ];
