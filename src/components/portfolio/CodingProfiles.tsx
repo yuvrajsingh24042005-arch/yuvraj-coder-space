@@ -14,7 +14,7 @@ export function CodingProfiles() {
       id="profiles"
       eyebrow="Coding Profiles"
       title="Where I practise"
-      description="Statistics below are placeholders — update them in the content file with your real numbers."
+      description="My active coding practice and project profiles."
     >
       <div className="grid gap-6 lg:grid-cols-3">
         {codingProfiles.map((p) => {
@@ -29,15 +29,6 @@ export function CodingProfiles() {
               </div>
               <h3 className="mt-5 text-xl font-semibold">{p.platform}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{p.description}</p>
-
-              <dl className="mt-6 space-y-3 rounded-2xl border border-border bg-background/40 p-4">
-                {p.stats.map((s) => (
-                  <div key={s.label} className="flex items-center justify-between gap-3">
-                    <dt className="text-xs uppercase tracking-widest text-muted-foreground">{s.label}</dt>
-                    <dd className="font-mono text-sm text-foreground">{s.value}</dd>
-                  </div>
-                ))}
-              </dl>
 
               <a
                 href={p.url}
