@@ -62,28 +62,35 @@ export const codingProfiles = [
 
 export const projects = [
   {
-    name: "Project One", // [PLACEHOLDER]
+    name: "VitalSync",
     description:
-      "Placeholder description — replace with what the project does, the problem it solves and your role in building it.",
-    tech: ["Java", "MySQL"],
-    githubUrl: "#", // [PLACEHOLDER]
-    demoUrl: "#", // [PLACEHOLDER]
-  },
-  {
-    name: "Project Two", // [PLACEHOLDER]
-    description:
-      "Placeholder description — replace with the features you implemented and anything you learned along the way.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "#", // [PLACEHOLDER]
-    demoUrl: "#", // [PLACEHOLDER]
-  },
-  {
-    name: "Project Three", // [PLACEHOLDER]
-    description:
-      "Placeholder description — replace with a short summary of the project scope and the tech decisions you made.",
-    tech: ["Java", "DSA"],
-    githubUrl: "#", // [PLACEHOLDER]
-    demoUrl: "#", // [PLACEHOLDER]
+      "A healthcare application that monitors patient health, predicts health-crisis risk using AI/ML, provides AI assistance, and offers emergency SOS, SMS alerts, and nearby hospital detection.",
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Node.js",
+      "Express.js",
+      "Python",
+      "Flask",
+      "Scikit-learn",
+      "Random Forest",
+      "Supabase",
+      "PostgreSQL",
+      "REST APIs",
+      "OpenRouter",
+      "Claude AI",
+      "Twilio",
+      "Google Places API",
+      "OpenStreetMap",
+      "OpenWeatherMap API",
+      "Google OAuth",
+      "PWA",
+    ],
+    githubUrl: "https://github.com/yuvrajsingh24042005-arch/VitalSync",
+    demoUrl: "",
   },
 ];
 

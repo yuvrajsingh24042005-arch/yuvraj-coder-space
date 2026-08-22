@@ -42,14 +42,6 @@ export function Projects() {
               >
                 <Github className="size-4" /> GitHub
               </a>
-              <a
-                href={project.demoUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-primary/40 px-4 py-2.5 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
-              >
-                <ExternalLink className="size-4" /> Live Demo
-              </a>
             </div>
           </article>
         ))}
