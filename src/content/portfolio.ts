@@ -50,15 +50,16 @@ export const codingProfiles = [
     platform: "LeetCode",
     description: "Daily practice on DSA problems and contest questions.",
     url: "https://leetcode.com/u/yuvrajsinghh24/",
+    stat: "50+ Problems Solved",
   },
   {
     platform: "GitHub",
-    description: "Projects, practice repositories and open-source exploration.",
+    description: "My projects, code, and development work.",
     url: "https://github.com/yuvrajsingh24042005-arch",
   },
   {
     platform: "CodeChef",
-    description: "Competitive programming contests and long challenges.",
+    description: "My competitive programming profile.",
     url: "https://www.codechef.com/users/equal_glim_45",
   },
 ];
