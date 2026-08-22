@@ -11,7 +11,7 @@ export const profile = {
     "I'm a Computer Science undergraduate focused on software development. I spend my time writing Java, sharpening my Data Structures & Algorithms fundamentals, and building for the web — learning by shipping small, real projects.",
   email: "yuvraj@example.com", // [PLACEHOLDER] replace with real email
   githubUrl: "https://github.com/yuvrajsingh24042005-arch",
-  linkedinUrl: "https://www.linkedin.com/in/yuvraj-singh-b09048362?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  linkedinUrl: "https://www.linkedin.com/in/yuvraj-singh-b09048362",
   location: "India", // [PLACEHOLDER]
 };
 
@@ -46,32 +46,17 @@ export const codingProfiles = [
   {
     platform: "LeetCode",
     description: "Daily practice on DSA problems and contest questions.",
-    url: "https://leetcode.com/u/yuvrajsinghh24",
-    stats: [
-      { label: "Problems Solved", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Contest Rating", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Max Streak", value: "—" }, // [PLACEHOLDER] update with real number
-    ],
+    url: "https://leetcode.com/u/yuvrajsinghh24/",
   },
   {
     platform: "GitHub",
     description: "Projects, practice repositories and open-source exploration.",
     url: "https://github.com/yuvrajsingh24042005-arch",
-    stats: [
-      { label: "Repositories", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Contributions", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Followers", value: "—" }, // [PLACEHOLDER] update with real number
-    ],
   },
   {
     platform: "CodeChef",
     description: "Competitive programming contests and long challenges.",
     url: "https://www.codechef.com/users/equal_glim_45",
-    stats: [
-      { label: "Rating", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Stars", value: "—" }, // [PLACEHOLDER] update with real number
-      { label: "Contests", value: "—" }, // [PLACEHOLDER] update with real number
-    ],
   },
 ];
 
