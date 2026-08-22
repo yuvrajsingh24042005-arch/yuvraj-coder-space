@@ -14,7 +14,7 @@ export function CodingProfiles() {
       id="profiles"
       eyebrow="Coding Profiles"
       title="Where I practise"
-      description="Statistics below are placeholders — update them in the content file with your real numbers."
+      description="My active coding practice and project profiles."
     >
       <div className="grid gap-6 lg:grid-cols-3">
         {codingProfiles.map((p) => {
