@@ -10,8 +10,8 @@ export const profile = {
   intro:
     "I'm a Computer Science undergraduate focused on software development. I spend my time writing Java, sharpening my Data Structures & Algorithms fundamentals, and building for the web — learning by shipping small, real projects.",
   email: "yuvraj@example.com", // [PLACEHOLDER] replace with real email
-  githubUrl: "https://github.com/your-username", // [PLACEHOLDER]
-  linkedinUrl: "https://linkedin.com/in/your-profile", // [PLACEHOLDER]
+  githubUrl: "https://github.com/yuvrajsingh24042005-arch",
+  linkedinUrl: "https://www.linkedin.com/in/yuvraj-singh-b09048362?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   location: "India", // [PLACEHOLDER]
 };
 
