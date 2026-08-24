@@ -19,7 +19,7 @@ export function Skills() {
     >
       <div className="grid gap-6 sm:grid-cols-2">
         {skillCategories.map((category, idx) => {
-          const CategoryIcon = categoryIcons[category.title];
+          const CategoryIcon = categoryIcons[category.title]!;
           return (
             <article
               key={category.title}
