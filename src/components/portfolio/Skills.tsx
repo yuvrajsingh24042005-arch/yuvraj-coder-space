@@ -1,12 +1,53 @@
 import { skillCategories } from "@/content/portfolio";
 import { Section } from "./Section";
-import { icons, Terminal, Code, Globe, Wrench } from "lucide-react";
+import {
+  Terminal,
+  Code,
+  Globe,
+  Wrench,
+  Code2,
+  List,
+  Type,
+  Search,
+  MoveHorizontal,
+  PanelTop,
+  ArrowUpDown,
+  Hash,
+  Lightbulb,
+  FileCode2,
+  Palette,
+  Braces,
+  GitBranch,
+  Github,
+  Monitor,
+  Flame,
+} from "lucide-react";
 
-const categoryIcons: Record<string, typeof Terminal> = {
+const categoryIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   "Programming Languages": Terminal,
   "Data Structures & Algorithms": Code,
   "Web Development": Globe,
   "Tools & Technologies": Wrench,
+};
+
+const skillIcons: Record<string, React.ComponentType<{ className?: string }>> = {
+  Java: Code2,
+  "C": Terminal,
+  Arrays: List,
+  Strings: Type,
+  "Binary Search": Search,
+  "Two Pointers": MoveHorizontal,
+  "Sliding Window": PanelTop,
+  Sorting: ArrowUpDown,
+  "Basic Hashing": Hash,
+  "Problem Solving": Lightbulb,
+  HTML: FileCode2,
+  CSS: Palette,
+  JavaScript: Braces,
+  Git: GitBranch,
+  GitHub: Github,
+  "VS Code": Monitor,
+  Firebase: Flame,
 };
 
 export function Skills() {
@@ -35,7 +76,7 @@ export function Skills() {
 
               <div className="mt-5 flex flex-wrap gap-2">
                 {category.skills.map((skill) => {
-                  const SkillIcon = icons[skill.icon as keyof typeof icons];
+                  const SkillIcon = skillIcons[skill.name];
                   return (
                     <span
                       key={skill.name}
