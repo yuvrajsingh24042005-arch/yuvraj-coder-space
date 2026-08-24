@@ -76,16 +76,16 @@ export function Skills() {
 
               <div className="mt-5 flex flex-wrap gap-2">
                 {category.skills.map((skill) => {
-                  const SkillIcon = skillIcons[skill.name];
+                  const SkillIcon = skillIcons[skill];
                   return (
                     <span
-                      key={skill.name}
+                      key={skill}
                       className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-3 py-1.5 text-sm text-foreground transition-all duration-200 hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
                     >
                       {SkillIcon && (
                         <SkillIcon className="h-3.5 w-3.5 text-muted-foreground transition-colors duration-200 group-hover:text-primary" />
                       )}
-                      {skill.name}
+                      {skill}
                     </span>
                   );
                 })}
