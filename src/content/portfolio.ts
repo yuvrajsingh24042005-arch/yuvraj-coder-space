@@ -32,18 +32,48 @@ export const about = {
   ],
 };
 
-export const skills = [
-  { name: "Java", note: "Core language I am actively learning" },
-  { name: "C", note: "Fundamentals and memory basics" },
-  { name: "Data Structures & Algorithms", note: "Building problem-solving foundations" },
-  { name: "Problem Solving", note: "Practicing through LeetCode challenges" },
-  { name: "HTML", note: "Semantic page structure" },
-  { name: "CSS", note: "Styling and responsive layouts" },
-  { name: "JavaScript", note: "DOM, events, and core concepts" },
-  { name: "React.js", note: "Component-based UI basics" },
-  { name: "SQL", note: "Database queries and relationships" },
-  { name: "Git", note: "Version control and branching" },
-  { name: "GitHub", note: "Repositories and collaboration" },
+export const skillCategories = [
+  {
+    title: "Programming Languages",
+    icon: "Terminal",
+    skills: [
+      { name: "Java", icon: "Coffee" },
+      { name: "C", icon: "Code2" },
+    ],
+  },
+  {
+    title: "Data Structures & Algorithms",
+    icon: "Code",
+    skills: [
+      { name: "Arrays", icon: "List" },
+      { name: "Strings", icon: "Type" },
+      { name: "Binary Search", icon: "Search" },
+      { name: "Two Pointers", icon: "MoveHorizontal" },
+      { name: "Sliding Window", icon: "PanelTop" },
+      { name: "Sorting", icon: "ArrowUpDown" },
+      { name: "Basic Hashing", icon: "Hash" },
+      { name: "Problem Solving", icon: "Lightbulb" },
+    ],
+  },
+  {
+    title: "Web Development",
+    icon: "Globe",
+    skills: [
+      { name: "HTML", icon: "FileCode2" },
+      { name: "CSS", icon: "Palette" },
+      { name: "JavaScript", icon: "Braces" },
+    ],
+  },
+  {
+    title: "Tools & Technologies",
+    icon: "Wrench",
+    skills: [
+      { name: "Git", icon: "GitBranch" },
+      { name: "GitHub", icon: "Github" },
+      { name: "VS Code", icon: "Monitor" },
+      { name: "Firebase", icon: "Flame" },
+    ],
+  },
 ];
 
 export const codingProfiles = [
