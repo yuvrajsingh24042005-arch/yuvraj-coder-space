@@ -35,44 +35,28 @@ export const about = {
 export const skillCategories = [
   {
     title: "Programming Languages",
-    icon: "Terminal",
-    skills: [
-      { name: "Java", icon: "Coffee" },
-      { name: "C", icon: "Code2" },
-    ],
+    skills: ["Java", "C"],
   },
   {
     title: "Data Structures & Algorithms",
-    icon: "Code",
     skills: [
-      { name: "Arrays", icon: "List" },
-      { name: "Strings", icon: "Type" },
-      { name: "Binary Search", icon: "Search" },
-      { name: "Two Pointers", icon: "MoveHorizontal" },
-      { name: "Sliding Window", icon: "PanelTop" },
-      { name: "Sorting", icon: "ArrowUpDown" },
-      { name: "Basic Hashing", icon: "Hash" },
-      { name: "Problem Solving", icon: "Lightbulb" },
+      "Arrays",
+      "Strings",
+      "Binary Search",
+      "Two Pointers",
+      "Sliding Window",
+      "Sorting",
+      "Basic Hashing",
+      "Problem Solving",
     ],
   },
   {
     title: "Web Development",
-    icon: "Globe",
-    skills: [
-      { name: "HTML", icon: "FileCode2" },
-      { name: "CSS", icon: "Palette" },
-      { name: "JavaScript", icon: "Braces" },
-    ],
+    skills: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Tools & Technologies",
-    icon: "Wrench",
-    skills: [
-      { name: "Git", icon: "GitBranch" },
-      { name: "GitHub", icon: "Github" },
-      { name: "VS Code", icon: "Monitor" },
-      { name: "Firebase", icon: "Flame" },
-    ],
+    skills: ["Git", "GitHub", "VS Code", "Firebase"],
   },
 ];
 
