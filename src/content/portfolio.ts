@@ -32,18 +32,32 @@ export const about = {
   ],
 };
 
-export const skills = [
-  { name: "Java", note: "Core language I am actively learning" },
-  { name: "C", note: "Fundamentals and memory basics" },
-  { name: "Data Structures & Algorithms", note: "Building problem-solving foundations" },
-  { name: "Problem Solving", note: "Practicing through LeetCode challenges" },
-  { name: "HTML", note: "Semantic page structure" },
-  { name: "CSS", note: "Styling and responsive layouts" },
-  { name: "JavaScript", note: "DOM, events, and core concepts" },
-  { name: "React.js", note: "Component-based UI basics" },
-  { name: "SQL", note: "Database queries and relationships" },
-  { name: "Git", note: "Version control and branching" },
-  { name: "GitHub", note: "Repositories and collaboration" },
+export const skillCategories = [
+  {
+    title: "Programming Languages",
+    skills: ["Java", "C"],
+  },
+  {
+    title: "Data Structures & Algorithms",
+    skills: [
+      "Arrays",
+      "Strings",
+      "Binary Search",
+      "Two Pointers",
+      "Sliding Window",
+      "Sorting",
+      "Basic Hashing",
+      "Problem Solving",
+    ],
+  },
+  {
+    title: "Web Development",
+    skills: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: "Tools & Technologies",
+    skills: ["Git", "GitHub", "VS Code", "Firebase"],
+  },
 ];
 
 export const codingProfiles = [
