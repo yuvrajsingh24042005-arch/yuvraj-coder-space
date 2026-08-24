@@ -17,17 +17,18 @@ export const profile = {
 
 export const about = {
   heading: "About Me",
+  intro: "Curious, focused, and always building.",
   paragraphs: [
-    "I recently completed my first year of B.Tech in Computer Science and Engineering. I am at the beginning of my journey as a developer, and I am focused on building a strong foundation in Java, Data Structures & Algorithms, and Web Development.",
-    "So far, I have solved 50+ problems on LeetCode. I enjoy understanding the logic behind a problem, exploring different approaches, and finding an efficient solution. That process of breaking things down and making them work is what drew me to programming.",
-    "I also love building projects and turning ideas into working applications. I recently participated in CodePunk, my first hackathon. My team did not win, but the experience taught me how to collaborate, work under constraints, and build something from scratch.",
-    "I chose Computer Science because I am curious about how modern technology works behind the scenes. My goal is to keep learning, understand the systems that shape the world, and eventually build useful and efficient solutions as a Full-Stack Developer.",
+    "I am a BTech Computer Science student with a strong interest in software development and problem solving. I am currently focused on learning Java, strengthening my Data Structures & Algorithms fundamentals, and exploring Web Development.",
+    "I enjoy the process of breaking down a coding problem, understanding the logic behind it, and finding a clean, efficient solution. That mindset has helped me solve 50+ problems on LeetCode so far, and I keep practicing every day to improve.",
+    "Beyond problem solving, I love building practical projects that let me apply what I learn. My goal is to become a Full Stack Developer and create useful, well-crafted applications that solve real problems.",
+    "I am still early in my journey, but I am committed to learning consistently, improving my skills, and turning ideas into working products.",
   ],
-  facts: [
-    { label: "Degree", value: "B.Tech CSE" },
-    { label: "Year", value: "Completed 1st Year" },
+  highlights: [
+    { label: "Degree", value: "BTech CSE" },
     { label: "Focus", value: "Java • DSA • Web" },
-    { label: "Goal", value: "Full-Stack Developer" },
+    { label: "LeetCode", value: "50+ Solved" },
+    { label: "Goal", value: "Full Stack Developer" },
   ],
 };
 
