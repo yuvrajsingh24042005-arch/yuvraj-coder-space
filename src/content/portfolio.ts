@@ -85,7 +85,7 @@ export const projects = [
     description:
       "A health and wellness application designed to help users monitor and manage their daily health-related activities.",
     tech: ["Java", "Android", "Firebase"],
-    githubUrl: "https://github.com/yuvrajsingh24042005-arch/VitalSync.git",
+    githubUrl: "https://github.com/yuvrajsingh24042005-arch/VitalSync",
     demoUrl: "",
   },
   {
