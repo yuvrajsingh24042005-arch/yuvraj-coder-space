@@ -87,6 +87,8 @@ export const projects = [
     tech: ["Java", "Android", "Firebase"],
     githubUrl: "https://github.com/yuvrajsingh24042005-arch/VitalSync",
     demoUrl: "",
+    featured: true,
+
   },
   {
     name: "Coming Soon",
