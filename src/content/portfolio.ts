@@ -101,28 +101,22 @@ export const projects = [
 
 export const achievements = [
   {
-    title: "Certification title", // [PLACEHOLDER]
-    meta: "Issuer • Year", // [PLACEHOLDER]
-    description: "Placeholder — add a certification you have actually completed.",
-    kind: "Certification",
+    title: "LeetCode Problem Solving",
+    meta: "50+ Problems Solved",
+    description:
+      "Consistently practising Data Structures & Algorithms problems to build logical thinking and improve problem-solving skills.",
+    kind: "Coding",
+    url: "https://leetcode.com/u/yuvrajsinghh24/",
+    icon: "leetcode",
   },
   {
-    title: "Coding milestone", // [PLACEHOLDER]
-    meta: "Platform • Year", // [PLACEHOLDER]
-    description: "Placeholder — add a real milestone, e.g. a problem-count or rating goal you reached.",
-    kind: "Milestone",
-  },
-  {
-    title: "Contest participation", // [PLACEHOLDER]
-    meta: "Event • Year", // [PLACEHOLDER]
-    description: "Placeholder — add hackathons or contests you took part in.",
-    kind: "Contest",
-  },
-  {
-    title: "Coursework highlight", // [PLACEHOLDER]
-    meta: "College • Semester", // [PLACEHOLDER]
-    description: "Placeholder — add academic work you're proud of.",
-    kind: "Academic",
+    title: "Open Source & Project Building",
+    meta: "GitHub",
+    description:
+      "Building and maintaining programming projects, applying what I learn and tracking my growth as a developer.",
+    kind: "Projects",
+    url: "https://github.com/yuvrajsingh24042005-arch",
+    icon: "github",
   },
 ];
 
